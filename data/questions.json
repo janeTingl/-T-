@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "数学",
+    "question": "计算 12 + 8 的结果是多少？",
+    "answer": "20"
+  },
+  {
+    "subject": "数学",
+    "question": "一个三角形的三个角分别为 50°、60°，第三个角是多少？",
+    "answer": "70°"
+  },
+  {
+    "subject": "物理",
+    "question": "自由落体运动中，加速度是多少？",
+    "answer": "9.8 m/s²"
+  },
+  {
+    "subject": "物理",
+    "question": "电流的单位是什么？",
+    "answer": "安培(A)"
+  },
+  {
+    "subject": "化学",
+    "question": "水的化学式是什么？",
+    "answer": "H₂O"
+  },
+  {
+    "subject": "化学",
+    "question": "盐酸的主要成分是什么？",
+    "answer": "HCl"
+  }
+]
