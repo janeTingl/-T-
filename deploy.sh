@@ -1,27 +1,24 @@
 #!/bin/bash
 
-# ⚠️ 确保当前目录为项目根目录
-# ⚠️ 替换为你自己的 GitHub 仓库地址
-REPO_URL="https://github.com/janeTingl/-T-.git"
-BRANCH="main"
+# ⚠️ 确保已经安装 Git、Node.js、Expo CLI 和 EAS CLI
+# ⚠️ 替换 REPO_URL 为你的 GitHub 仓库地址
+REPO_URL="https://github.com/janeTingl/小T的辅导能手.git"
+PROJECT_DIR="小T的辅导能手"
 
 echo "=============================="
-echo "📂 初始化 Git 仓库并提交代码"
+echo "🌐 克隆最新代码"
 echo "=============================="
-git init
-git add .
-git commit -m "自动提交：更新项目代码"
+# 如果文件夹已存在，先删除旧的
+if [ -d "$PROJECT_DIR" ]; then
+  echo "删除已有项目文件夹..."
+  rm -rf "$PROJECT_DIR"
+fi
 
-echo "=============================="
-echo "🌐 连接远程仓库"
-echo "=============================="
-git remote add origin $REPO_URL
-git branch -M $BRANCH
+# 克隆仓库
+git clone "$REPO_URL"
 
-echo "=============================="
-echo "⬆️ 推送代码到 GitHub"
-echo "=============================="
-git push -u origin $BRANCH
+# 进入项目目录
+cd "$PROJECT_DIR" || { echo "❌ 项目文件夹不存在！"; exit 1; }
 
 echo "=============================="
 echo "📦 安装依赖"
