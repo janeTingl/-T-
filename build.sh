@@ -4,7 +4,7 @@
 # ⚠️ 确保当前目录为完整项目根目录
 
 # 1️⃣ 设置变量
-REPO_URL="https://github.com/janeTingl/小T的辅导能手.git"
+REPO_URL="https://github.com/janeTingl/-T-.git"
 BRANCH="main"
 
 echo "=============================="
