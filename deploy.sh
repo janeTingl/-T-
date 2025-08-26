@@ -2,7 +2,7 @@
 
 # ⚠️ 确保已经安装 Git、Node.js、Expo CLI 和 EAS CLI
 # ⚠️ 替换 REPO_URL 为你的 GitHub 仓库地址
-REPO_URL="https://github.com/janeTingl/小T的辅导能手.git"
+REPO_URL="https://github.com/janeTingl/-T-.git"
 PROJECT_DIR="小T的辅导能手"
 
 echo "=============================="
